@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction Dashboard() {\n  return (\n    <div>\n      <h2>Dashboard</h2>\n      <p>Statistics and insights will go here.</p>\n    </div>\n  );\n}\n\nexport default Dashboard;\n

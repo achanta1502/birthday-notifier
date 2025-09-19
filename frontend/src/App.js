@@ -1,0 +1,1 @@
+import React from 'react';\nimport UserForm from './UserForm';\nimport UserList from './UserList';\nimport Dashboard from './Dashboard';\n\nfunction App() {\n  return (\n    <div>\n      <h1>Birthday Notifier</h1>\n      <UserForm />\n      <UserList />\n      <Dashboard />\n    </div>\n  );\n} \n\nexport default App;\n

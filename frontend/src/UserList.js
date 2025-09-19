@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction UserList() {\n  // Sample data, replace with dynamic data later\n  const users = [{ name: 'John Doe', date: '2023-01-01' }];\n\n  return (\n    <ul>\n      {users.map((user, index) => (\n        <li key={index}>{user.name} - {user.date}</li>\n      ))} \n    </ul>\n  );\n} \n\nexport default UserList;\n
